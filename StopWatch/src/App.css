@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+SA+Beginner:wght@400..700&family=Playwrite+AU+QLD+Guides&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Edu SA Beginner", cursive;
+    font-optical-sizing: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F0C27B;
+    background: -webkit-linear-gradient(to left, #4B1248, #F0C27B);
+    background: linear-gradient(to left, #4B1248, #F0C27B);
+}
+
+.container{
+    width: 50vw;
+    height: 50vh;
+    background-color: transparent;
+    border: 2px solid #4B1248;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:10%;
+    margin-left: 23%;
+
+    button{
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 5px;
+        margin-right: 6px;
+        background-color: #F0C27B;
+        border: 2px solid #4B1248;
+        font-size: 17px;
+    }
+    button:hover{
+        text-decoration: underline;
+    }
+    
+    .calc{
+        font-size: 75px;
+    }
+
+    h1{
+        font-weight: 200;
+        font-size: 60px;
+    }
+}
+
