@@ -1,0 +1,11 @@
+.react-toastify__toast-container{
+    z-index:9999;
+}
+.react-toastify__toast{
+    height: auto;
+    min-height: 64px;
+    padding: 16px;
+}
+.react-toastify__toast-body{
+    line-height: normal;
+}
